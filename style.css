@@ -454,12 +454,13 @@ nav li a{
 
   
 }
-.lb{
+.sales ul li{
   align-items: center;
-  padding-top:100px ;
+width:90%;
   font-size: 20px;
-  padding-left: 100px;
- color: black;
+  color: black;
+  margin-top: 40PX;
+margin-left: 20px;
 }
 .sales img{
   width: 600px;
@@ -710,7 +711,8 @@ margin-left: 50px;
     flex-basis: 100%;
     padding: 10px;
     text-align: center;
-}
+ 
+  }
 
 .logo1 {
     width: 90px;
@@ -745,6 +747,7 @@ h3 {
     border-radius: 3px;
     margin: 0 auto;
     margin-top: 10px;
+    color: ;
 }
 
 .email-id {
@@ -762,12 +765,12 @@ ul li {
     margin-bottom: 12px;
 }
 
-ul li a {
+.col ul li a {
     text-decoration: none;
     color: #fff;
 }
 
-ul li:hover {
+ .col ul li:hover {
     text-decoration: underline;
     transform: scale(1.1);
 }
